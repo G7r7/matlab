@@ -5,6 +5,9 @@ MATLAB cheat sheet
 ```MATLAB
 help [command]
 ```
+Relationals operators: **== , ~= , <, >, <=, >=**
+Logicical operators : **&&, ||**
+
 ## Useful commands
 * List all variables :
 >```MATLAB
@@ -37,7 +40,7 @@ help [command]
 ```matlab
 matrice=[1, 2; 3, 4]
 ```
-Output :
+Output:
 ```
 matrice =
 
@@ -48,11 +51,21 @@ matrice =
 ```matlab
 z=4+5i
 ```
-Output :
+Output:
 ```
 z =
 
    4.0000 + 5.0000i
+```
+* Range:
+```matlab
+4:10
+```
+Output:
+```
+ans =
+
+     4     5     6     7     8     9    10
 ```
 ## Matrix operations :
 * Access (line **i** column **j**, starts at 1):
@@ -130,8 +143,53 @@ zeros(4,2)
 ```matlab
 ones(4,2)
 ```
+## Loops:
+* For:
+```matlab
+for i = valeurs
+instructions
+end 
+```
+* For:
+```matlab
+while condition
+instructions
+end
+```
+## Conditions:
+* If/else if/else:
+```matlab
+if condition1
+instructions
+elseif condition2
+instructions
+else 
+instructions
+end 
+```
+* Switch:
+```matlab
+switch expression_du_switch
+ case expression_du_case
+ instructions
+ case expression_du_case
+ instructions
+ ...
+ otherwise
+ instructions
+end
+
+```
 ## Fun:
 * Magic square dimmension **n**
 ```matlab
 magic(n)
+```
+* Pi (3.1416)
+```matlab
+pi
+```
+## Comment
+```MATLAB
+% this is a comment
 ```
