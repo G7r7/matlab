@@ -55,9 +55,32 @@ z =
    4.0000 + 5.0000i
 ```
 ## Matrix operations :
+* Access (line **i** column **j**, starts at 1):
+```matlab
+a(i,j)
+```
+* Access span:
+```matlab
+a(i,j:k)
+a(i:j,k)
+a(i:j,k:l)
+a(i:j,k:end)
+```
+* Maximum value:
+```matlab
+max(a)
+```
+* Minimum value:
+```matlab
+min(a)
+```
 * Addition:
 ```matlab
 a+b
+```
+* Sum all matrix members:
+```matlab
+sum(a)
 ```
 * Soustraction:
 ```matlab
@@ -90,4 +113,25 @@ det(a)
 * Invert:
 ```matlab
 inv(a)
+```
+* Concatenate (on top):
+```matlab
+[a;b]
+```
+* Concatenate (side by side):
+```matlab
+[a,b]
+```
+* Zeros filled matrix:
+```matlab
+zeros(4,2)
+```
+* Ones filled matrix:
+```matlab
+ones(4,2)
+```
+## Fun:
+* Magic square dimmension **n**
+```matlab
+magic(n)
 ```
