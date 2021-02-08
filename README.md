@@ -83,3 +83,11 @@ a.^2
 ```matlab
 a'
 ```
+* Determiant :
+```matlab
+det(a)
+```
+* Invert:
+```matlab
+inv(a)
+```
