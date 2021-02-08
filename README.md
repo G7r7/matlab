@@ -180,6 +180,46 @@ switch expression_du_switch
 end
 
 ```
+## Graphs:
+* New graph
+```matlab
+figure
+```
+* New line ([first point], [second point]):
+```matlab
+plot([1,3],[4,2]);
+plot([1,3],[4,2],'k','linewidth',3);
+% k = black
+% mx = markers only
+% rx- = markers and line
+```
+* Allow multiple drawings on figure:
+```matlab
+hold on 
+```
+* Decorate figure:
+```matlab
+grid
+xlabel
+ylabel
+title
+legend
+axis % Scale
+```
+* Sinus wave:
+```matlab
+t = [0 : 0.1 : 2*pi]; % angles entre 0 et 2pi, avec un pas de 0.1
+s = sin (t);
+plot (t,s)
+```
+* Surface:
+```matlab
+x = [-1 : 0.1 : 1];
+y = [-1 : 0.1 : 1];
+[X,Y]=meshgrid(x,y);
+Z=X.^2-Y.^2;
+surf(X,Y,Z)
+```
 ## Fun:
 * Magic square dimmension **n**
 ```matlab
