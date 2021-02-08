@@ -54,3 +54,32 @@ z =
 
    4.0000 + 5.0000i
 ```
+## Matrix operations :
+* Addition:
+```matlab
+a+b
+```
+* Soustraction:
+```matlab
+a-b
+```
+* Multiplication:
+```matlab
+a*b
+```
+* Scalar multiplication:
+```matlab
+a.*b
+```
+* Power up:
+```matlab
+a^2
+```
+* Scalar power up:
+```matlab
+a.^2
+```
+* Flip:
+```matlab
+a'
+```
