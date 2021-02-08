@@ -22,3 +22,28 @@ z =
 
    4.0000 + 5.0000i
 ```
+### Useful commands
+* List all variables :
+>```MATLAB
+>whos
+>```
+* Clear all variables :
+>```MATLAB
+>clear
+>```
+* Clear terminal :
+>```MATLAB
+>clc
+>```
+* Squareroot :
+>```MATLAB
+>sqrt(2)
+>```
+* Module (complex) :
+>```MATLAB
+>abs(5+4i)
+>```
+* Number of lines and columns :
+>```MATLAB
+>size(matrice)
+>```
