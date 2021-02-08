@@ -143,6 +143,26 @@ zeros(4,2)
 ```matlab
 ones(4,2)
 ```
+## Functions:
+* Function (to put in a same named file .m, then called by command if in current directory):
+```matlab
+function [outputArg1,outputArg2] = untitled(inputArg1,inputArg2)
+%UNTITLED Summary of this function goes here
+% Detailed explanation goes here
+outputArg1 = inputArg1;
+outputArg2 = inputArg2;
+end
+
+% Exemple:
+function [s] = calculSurface(r)
+%Surface d’un disque
+% La fonction renvoie la surface d’un disque de rayon r donné en argument
+s = pi*r^2;
+end
+
+% Usage:
+y = calculSurface(1)
+```
 ## Loops:
 * For:
 ```matlab
