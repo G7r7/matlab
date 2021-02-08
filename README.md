@@ -1,7 +1,7 @@
 # matlab
 matlab cheat sheet
 
-## Create matrix :
+## Matrix:
 ```matlab
 matrice=[1, 2; 3, 4]
 ```
@@ -11,4 +11,14 @@ matrice =
 
      1     2
      3     4
+```
+## Complex number:
+```matlab
+z=4+5i
+```
+Output :
+```
+z =
+
+   4.0000 + 5.0000i
 ```
